@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv("..Data/Data_raw.csv")
+df = pd.read_csv("Data/Data_raw.csv")
 
 X = df.drop('NObeyesdad', axis=1)
 y = df['NObeyesdad']
